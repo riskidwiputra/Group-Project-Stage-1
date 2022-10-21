@@ -20,13 +20,14 @@
           <div class="d-flex align-items-center justify-content-center px-lg-5 ms-xl-4  pt-xl-0 mt-xl-n5" style="height:100vh;">
 
             <!-- <form style="width: 23rem;"> -->
-              <form class="col-10">
+              <form class="col-10 login-form" action="">
               <i class="bi bi-eye"></i>
-              <h3 class="custom fw-normal mb-3 pb-3 fw-bold" style="letter-spacing: 1px;">Log in</h3>
+              <h1 class="custom fw-normal  fw-bold" style="letter-spacing: 1px;">Log in</h1>
+              <p class="mb-5" id="center">Welcome back! Please enter your datas.</p>
 
               <div class="form-outline mb-4">
                 <label class="form-label" for="form2Example18">Email</label>
-                <input type="email" id="form2Example18" class="form-control form-control-lg" placeholder="Email address" required />
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="Email address" required />
               
               </div>
 
@@ -39,11 +40,11 @@
               </div>
 
               <div class="custom pt-1 mb-4">
-                <button class="button-custom btn btn-info btn-lg btn-block" type="button">Login</button>
+                <button class="button-custom btn btn-dark btn-lg btn-block" style="font-weight:600" type="submit">Login</button>
               </div>
 
 
-              <p class=" custom small mb-2 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
+              <p class=" custom small mb-2 pb-lg-2 " ><a class="text-muted" style="text-decoration: none;" href="#">Forgot password ?</a></p>
               <p class="custom">Don't have an account? <a href="#!" class="link-info" style="text-decoration: none">Register here</a></p>
 
             </form>
@@ -57,6 +58,8 @@
       </div>
     </div>
   </section>
-<script src="js/script.js"></script>
+<script type="module" src="js/script.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>

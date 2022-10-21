@@ -10,6 +10,9 @@
         h3{
            text-transform: uppercase;
         }
+        /* #center{
+            text-align: center;
+        } */
         .custom{
             text-align: center;
             align-items: center;
