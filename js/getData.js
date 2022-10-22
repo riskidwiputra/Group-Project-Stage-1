@@ -10,6 +10,13 @@ class getData{
         return data; 
     }
 
+    async PostDataUsers($data){
+        var url = `${componen}`
+        let data = await RequestService.postRequest(url, $data)
+
+        return data; 
+    }
+
 };
 
 export default new getData()
