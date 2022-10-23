@@ -1,15 +1,13 @@
    
     import getData from "./getdata.js";
 
-    let dataUser =  await getData.getDataUsers();
-
-    document.querySelector('.login-form').addEventListener('submit',(e) => {
+    async function dataUser(e) {
+    
         e.preventDefault();
-
+        let data        =  await getData.getDataUsers();
         let email       = document.getElementById("email").value;
         let password    = document.getElementById("input-password").value;
-        
-        let check = dataUser.filter(e => e.email == email || e.password == password);
+        let check = data.filter(e => e.email == email && e.password == password);
 
         if(check.length >= 1){
             alert("email dan password true")
@@ -20,6 +18,10 @@
                 text: 'Password anda salah!',
             })
         }
-       
+           
+    }
+
+    document.querySelector('.login-form').addEventListener('submit',(e) => {
+        dataUser(e);
     })
     
