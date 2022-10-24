@@ -10,11 +10,14 @@
         let password    = document.getElementById("input-password").value;
         let repeat      = document.getElementById("RepeatPassword").value;
 
-        if(password != repeat) Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Passwords do not match.',
-        })
+        if(password != repeat){
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Passwords do not match.',
+            })
+            return false;
+        } 
         let data = {
             'fullname'  : fullname,
             'email'     : email,
