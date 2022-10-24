@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login {
+    height: 100vh;
+}
+
+.header h1{
+    /* Welcome back */
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */ 
+color: #000000;
+}
+
+.header p{
+    /* Welcome back! Please enter your details. */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+color: #737373;
+margin-bottom: 20px;
+}
+
+.login-form label{
+    /* Email */
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #000000;
+margin-top: 20px;
+}
+
+.login-form input{
+/* Rectangle 1 */
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 8px;
+}
+
+.login-form a{
+    /* Forgot password */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+color: #737373;
+margin: 20px 0;
+display: block;
+}
+
+
+.login-form span{
+    /* Don’t have an account? Sign up for free */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #737373;
+}
+
+.login-form span a{
+    font-weight: 600;
+    margin: 0 0 0 0;
+}
+
+.login-form form-control{
+    margin: 10px 0 20px 0;
+}
+
+@media (max-width: 550px){
+    .header{
+        text-align: center;
+    }
+
+
+    .button-custom{
+        width: 100%;
+    }
+}
+
+

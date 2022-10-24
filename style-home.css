@@ -1,0 +1,16 @@
+/* dekstop */
+@media (min-width: 992px){
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 2px;
+        margin-bottom: -8px;
+    }
+    .bg-image{
+        margin-top: -60px;
+    }
+
+}
