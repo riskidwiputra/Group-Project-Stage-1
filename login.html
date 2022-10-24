@@ -20,30 +20,32 @@
           <div class="d-flex align-items-center justify-content-center px-lg-5 ms-xl-4  pt-xl-0 mt-xl-n5" style="height:100vh;">
 
             <!-- <form style="width: 23rem;"> -->
-              <form class="col-10">
+              <form class="col-10 login-form" action="">
               <i class="bi bi-eye"></i>
-              <h3 class="custom fw-normal mb-3 pb-3 fw-bold" style="letter-spacing: 1px;">Log in</h3>
+              <h1 class="custom fw-normal  fw-bold" style="letter-spacing: 1px;">Log in</h1>
+              <p class="mb-5" id="center">Welcome back! Please enter your datas.</p>
 
               <div class="form-outline mb-4">
                 <label class="form-label" for="form2Example18">Email</label>
-                <input type="email" id="form2Example18" class="form-control form-control-lg" placeholder="Email address" required />
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="Email address" required />
               
               </div>
 
-              <div class="form-outline mb-4">
+              <div class="form-outline mb-4" >
                 <label class="form-label" for="form2Example18">Password</label>
-                <input type="password" id="form2Example28" class="form-control form-control-lg" placeholder="Password" required />
-                
-                <span style="float:right;margin-top:-33px;margin-right:25px;font-size:18px;" toggle="#password-field" class="toggle-password fa fa-eye-slash"></span>
+                <input type="password"  class="form-control form-control-lg" placeholder="Password" id="input-password" required />
+              
+                <span style="float:right;margin-top:-33px;margin-right:25px;font-size:18px;" toggle="#password-field" class="toggle-password fa ">
+                  <a href="" id="show_hide_password" style="color:black;"><i class="fa fa-eye-slash" id="my-eye" aria-hidden="true"></i></a></span>
               </div>
 
               <div class="custom pt-1 mb-4">
-                <button class="button-custom btn btn-info btn-lg btn-block" type="button">Login</button>
+                <button class="button-custom btn btn-dark btn-lg btn-block" style="font-weight:600" type="submit">Login</button>
               </div>
 
 
-              <p class=" custom small mb-2 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-              <p class="custom">Don't have an account? <a href="#!" class="link-info" style="text-decoration: none">Register here</a></p>
+              <p class=" custom small mb-2 pb-lg-2 " ><a class="text-muted" style="text-decoration: none;" href="#">Forgot password ?</a></p>
+              <p class="custom">Don't have an account? <a href="registrasi.html" class="link-info" style="text-decoration: none">Register here</a></p>
 
             </form>
           </div>
@@ -56,6 +58,9 @@
       </div>
     </div>
   </section>
+<script type="module" src="js/script_login.js"></script>
+<script src="js/show_password_login.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 </html>

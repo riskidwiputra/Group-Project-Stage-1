@@ -6,9 +6,12 @@
     background-size: auto 100%;
     }
 
-    @media (max-width: 500px){
+    @media (max-width: 550px){
         h3{
            text-transform: uppercase;
+        }
+        #center{
+            text-align: center;
         }
         .custom{
             text-align: center;
