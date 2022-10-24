@@ -22,6 +22,26 @@
         }
     }
 
+    .banner .navbar{
+        margin-top:0%;
+    }
+    .banner .navbar-brand{
+        color: #fff;
+        font-size:1.8em;
+        font-weight: 700;
+        margin-left: 3%;
+    }
+    /* .banner .nav{
+        height: 80px;
+        width: 100px;
+        margin-right:10%; 
+        background: rgba(0, 0, 0, 0.4);
+    } */
+    .banner .nav li a{
+        color:#aaa;
+        font-size: 1.5em;
+    }
+
     
        
     

@@ -259,7 +259,7 @@ button:focus {
     min-height: 780px; }
     .home_banner_area .banner_inner .overlay {
       color: white;
-      background: url(../image/banner/home-banner.jpg) no-repeat scroll  ;
+      background: url(../img/banner/home-banner.jpg) no-repeat scroll  ;
       position: absolute;
       left: 0;
       right: 0;
